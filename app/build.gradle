@@ -31,6 +31,7 @@ android {
 }
 
 dependencies {
+    implementation uiDependencies.values()
     implementation coroutinesDependencies.values()
     implementation networkDependencies.values()
     implementation hiltDependency
